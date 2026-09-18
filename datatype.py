@@ -78,7 +78,22 @@ for name,course in student:
         dict[name].add(course)
     else:
         dict[name].add(course) 
-print(dict)        
+print(dict) 
+
+
+
+no=[10,20,30,40,10,10,20,50]
+
+seen=set()
+duplicate=set()
+
+for num in no:
+    if num in seen:
+        duplicate.add(num)
+    else:
+        seen.add(num)
+print("The duplicate no in the list : ",duplicate)        
+
 
            
 
