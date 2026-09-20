@@ -1,5 +1,5 @@
 
-#list in the python
+#list in the pythons
 """marks=[10,40,30,70,50]
 
 marks.append(60)
