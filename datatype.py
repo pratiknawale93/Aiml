@@ -1,5 +1,5 @@
 
-#list in the pythons
+#list in the python
 """marks=[10,40,30,70,50]
 
 marks.append(60)
@@ -69,7 +69,7 @@ for var in student:
 
 print(u_set)  '''  
 
-
+'''
 dict={}
 
 for name,course in student:
@@ -92,22 +92,57 @@ for num in no:
         duplicate.add(num)
     else:
         seen.add(num)
-print("The duplicate no in the list : ",duplicate)        
+print("The duplicate no in the list : ",duplicate) 
+
+'''
+'''
+text=input("Enter the String : ")
+
+seen=set()
+duplicate=set()
+count=0
+
+for ch in text:
+    if ch in seen:
+        duplicate.add(ch)
+    else:
+        seen.add(ch)
+        count+=1
+print(f"The unique char is {seen} and count is : {count} ")         
+'''
+
+'''
+Text=input("Enter the String name : ")
+seen=set()
+duplicate=set()
+count=0
+
+for ch in Text:
+    if ch in seen:
+        duplicate.add(ch)
+        count+=1
+    else:
+        seen.add(ch) 
+print(f"The string contains {count} duplicate char and they are : {duplicate}")           
+'''
 
 
-           
+text=input("Enter your text here : ")
+seen=set()
+duplicate=set()
+count=0
 
-
-
-
-
-
-
-
-
-
-
-
+for ch in text:
+    if ch in seen:
+        duplicate.add(ch)
+        count+=1
+        
+    else:
+        seen.add(ch)
+if (count%2==0):
+    print(f"The count is {count} is Even {duplicate} ")  
+else:
+    print(f" The count is {count} is odd {duplicate}")              
 
 
 
