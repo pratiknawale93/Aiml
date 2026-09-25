@@ -21,6 +21,28 @@ for ch in text:
 print(f"The unique count of elements : {count} and the char are {seen}")  '''
 
 
+text=input("Enter the value of the text :")
+print(f"The given text is  : {text} ")
+
+count=0
+seen=set()
+duplicate=set()
+for ch in text:
+    if ch in seen:
+        duplicate.add(ch)
+    else:
+        seen.add(ch)
+        count+=1
+
+if (count%2==0):
+    print("The count is even !")
+else:
+    print("The count is odd !")
+
+print(f" The unique elements in the string are : {seen} and  count is {count}" )        
+
+
+
 
 
 
