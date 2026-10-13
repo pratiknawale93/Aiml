@@ -82,3 +82,7 @@ n=int(input("Time : "))
 SI=float(p*r*n)/100
 print("The simple intest will be ", SI)
 
+
+name=input("Enter your name")
+print(f"my name is {name} and i the son of ramdas nawale  ")
+
