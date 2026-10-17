@@ -25,5 +25,6 @@ def first_non_repeating_index(s: str) -> int:
 text = "geeksforgeeks"
 result = first_non_repeating_index(text)
 print(f"Index: {result}, Character: {text[result] if result != -1 else 'None'}")
+#in this way the output will be printed here .
 
 
