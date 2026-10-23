@@ -39,7 +39,15 @@ if (count%2==0):
 else:
     print("The count is odd !")
 
-print(f" The unique elements in the string are : {seen} and  count is {count}" )        
+print(f" The unique elements in the string are : {seen} and  count is {count}" )  
+
+
+
+
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9 / 5) + 32
+print(f"{celsius}°C is equal to {fahrenheit}°F")
+
 
 
 
