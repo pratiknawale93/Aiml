@@ -30,7 +30,7 @@ class animals(ABC):
 
 class Lion(animals):
     def make_sound(self):
-        print("The Lions Roar !")
+        print("The Lions Roars !")
 
 l1=Lion()
 l1.make_sound()
