@@ -142,7 +142,21 @@ for ch in text:
 if (count%2==0):
     print(f"The count is {count} is Even {duplicate} ")  
 else:
-    print(f" The count is {count} is odd {duplicate}")              
+    print(f" The count is {count} is odd {duplicate}")        
+
+# 1. Create a list of stock tickers
+tickers = ["AAPL", "MSFT", "GOOGL", "TSLA"]
+
+# 2. Print the entire list
+print("Original List:", tickers)
+
+# 3. Access a specific item (Python starts counting from 0)
+print("First item:", tickers[0])  # Output: AAPL
+
+# 4. Add a new item to the end of the list
+tickers.append("NVDA")
+print("Updated List:", tickers)
+
 
 
 
