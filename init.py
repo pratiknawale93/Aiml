@@ -80,6 +80,22 @@ p2.get_info()
 p3.get_info()
 p1.get_discount(20000,10)
 
-Product.the_count()         
+Product.the_count()        
+
+
+
+# 1. Create a list of stock tickers
+tickers = ["AAPL", "MSFT", "GOOGL", "TSLA"]
+
+# 2. Print the entire list
+print("Original List:", tickers)
+
+# 3. Access a specific item (Python starts counting from 0)
+print("First item:", tickers[0])  # Output: AAPL
+
+# 4. Add a new item to the end of the list
+tickers.append("NVDA")
+print("Updated List:", tickers)
+
 
 
