@@ -37,3 +37,17 @@ print(is_palindrome("A man a plan a canal Panama")) # True
 print(is_palindrome(12321))          # True
 print(is_palindrome("python"))        # False
 
+
+
+
+
+market_value_per_share = 100  # Example: $100 per share
+earnings_per_share = 5        # Example: $5 per share
+
+if earnings_per_share != 0:
+    pe_ratio = market_value_per_share / earnings_per_share
+    print(f"Price-to-Earnings (P/E) Ratio: {pe_ratio:.2f}")
+else:
+    print("Earnings per share cannot be zero. P/E ratio is undefined.")
+
+
